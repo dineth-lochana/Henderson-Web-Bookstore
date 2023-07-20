@@ -1,5 +1,5 @@
 Henderson (based on the story of Old Man Henderson) is an Web Store for buying books. Made with HTML and Vanilla CSS, using PHP and MYSQL as the backend. 
-As this is a show of technical sky, no Javascript or CSS Frameworks were used for this project.
+As this is a show of technical skill, no Javascript or CSS Frameworks were used for this project.
 
 ![image](https://github.com/lochana-dineth/Henderson-Web-Bookstore/assets/30839724/01893a82-a50b-45f9-9665-6cd8fa8a8dc0)
 
