@@ -1,0 +1,349 @@
+
+/* Home Page Things*/
+
+@font-face {
+  font-family: Lato;
+  src: url(Lato-Regular.ttf);
+}
+
+body {
+	background-image: url("images/gensokyo.jpg");
+	background-attachment: fixed;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	font-style: normal;
+	font-weight: 200;
+	font-family: Lato;
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+	height: auto;
+	background: rgba(255, 255, 255, 0.7);
+	backdrop-filter: blur(5px);
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-radius: 24px;
+}
+
+header {
+	width: 100%;
+	height: 8%;
+	background-color: #296fba;
+	border-bottom: 1px solid #2C9AB7;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0;
+	z-index: 20;
+}
+.logo {
+	color: #fff;
+	font-weight: bold;
+	text-align: undefined;
+	width: 10%;
+	float: left;
+	margin-top: 10px;
+	margin-left: 25px;
+	letter-spacing: 4px;
+	font-size: 29px;
+}
+
+nav {
+	float: right;
+	width: 70%;
+	text-align: right;
+	margin-right: 25px;
+}
+header nav ul {
+	list-style: none;
+	float: right;
+}
+nav ul li {
+	float: left;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: left;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 19px;
+	 transition: 0.3s;
+   transform : 0.2s;
+}
+ul li:hover a {
+	color: #2C9AB7;
+	font-size: 21px;
+	letter-spacing: 5px;
+	transition: 0.3s;
+   transform : 0.2s;
+
+}
+.main_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+	
+}
+
+.main {
+	background-color: #B3B3B3;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+
+.mainimg {
+	background-image: url("images/gensokyo2.jpg");
+	background-size: 100%;
+	max-height:40px;
+	padding-top: 40px;
+	padding-bottom: 50px;
+	
+}
+
+
+.light {
+	font-weight: bold;
+	color: #717070;
+}
+.tagline {
+	text-align: center;
+	margin-top: 4px;
+	margin-left: 0px;
+	width:100%;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 47px;
+}
+
+/* About Section */
+.text_column {
+	width: 29%;
+	text-align: justify;
+	font-weight: lighter;
+	line-height: 25px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #A3A3A3;	
+	background: rgba(255, 255, 255, 0.1);
+}
+.about {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 35px;
+	display: inline-block;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.about2 {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 35px;
+	display: inline-block;
+	font-size: 24px;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	background: rgba(255, 255, 255, 0.1);	
+}
+
+.about3 {
+	padding-right: 0px;
+	padding-top: 0px;
+	font-size: 24px;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.about4 {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 0px;
+	display: inline-block;
+	font-size: 24px;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+
+/* Footer things*/
+
+footer {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	background-color: #0d4c8f;
+	color: #FFFFFF;
+	font-size:25px;
+	margin : auto;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;	
+}
+
+
+
+.copyright {
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	background-color: #0d4c8f;
+	color: #FFFFFF;
+	font-size:20px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+
+
+
+/* For the Cards */
+
+.flex-gap {
+  display: flex; /* 1 */
+  width: max-content;
+  align-content: center;
+  justify-content: space-around;
+  margin:0 auto;
+  flex-direction: row;
+}
+
+.card {
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:10px;
+  height:600px;
+  width:270px;
+  box-shadow: 3px 8px 8px 0 rgba(0, 0, 0, 0.6);
+  max-width: 250px;
+  text-align: center;
+  border-radius: 6px;
+  display: inline-block;
+  margin:15px;
+  transition: 0.3s;
+  transform : 0.2s;
+}
+
+.card:hover{
+    background-color:#296fba;
+	transform: translate (-12px, -12px);
+	letter-spacing: 2px;
+	transition: 0.3s;
+   transform : 0.2s;
+}
+
+.price {
+  color: black;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 25px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+/* Slider */
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.usercard {
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:10px;
+	height:150px;
+	width:270px;
+	box-shadow: 3px 8px 8px 0 rgba(0, 0, 0, 0.6);
+	max-width: 250px;
+	text-align: center;
+	border-radius: 6px;
+	display: inline-block;
+	margin:15px;
+	transition: 0.3s;
+	transform : 0.2s;
+  }
+
+  .registerbtn {
+	background-color: #296fba;
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 80%;
+	opacity: 1.0;
+	border-radius: 25px;
+	font-size: 20px;
+}
